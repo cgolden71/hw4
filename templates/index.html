@@ -1,0 +1,18 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+    <body>
+        <P> My Top Anime right now are:</P>
+
+        <ol>
+             <!-- For loop logic of jinja template -->
+            {%for i in range(0, len)%}
+             <li>{{Anime[i]}} </li>
+            {%endfor%}
+        </ol>
+    
+
+    </body>
+</html>
